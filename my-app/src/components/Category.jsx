@@ -7,7 +7,7 @@ function Category() {
 
     const category = useParams().category;
     const [isLoading, setLoading] = useState(true);
-    const [pecepti, setRecipes] = useState();
+    const [pecepti, setPecepti] = useState();
 
 
     useEffect(() => {
